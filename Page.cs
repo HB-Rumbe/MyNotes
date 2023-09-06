@@ -1,3 +1,4 @@
+
 public class Page
 {
     public string Content;
@@ -5,6 +6,12 @@ public class Page
     {
         Content = content;
     }
+
+    internal static void read()
+    {
+        throw new NotImplementedException();
+    }
+
 
     public void Read()
     {
@@ -14,4 +21,5 @@ public class Page
         Book.WriteLine(Content);
         Console.ResetColor();
     }
+    
 }

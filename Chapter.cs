@@ -28,5 +28,20 @@ public class Chapter
             Console.ReadKey();
         }
         Console.Clear();
+        Console.WriteLine("You have finished reading the chapter. Do you want to start the quiz? (yes/no)");
+
+string response = Console.ReadLine();
+
+if (response.ToLower() == "yes")
+{
+    // Start the quiz
+    Quiz.StartQuiz();
+}
+else
+{
+    // Provide any other desired actions or exit the program
+    Console.WriteLine("Thank you for reading. Have a nice day!");
+    Thread.Sleep(1000);
+}
     }
 }

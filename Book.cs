@@ -1,3 +1,4 @@
+
 public class Book
 {
     public string Title;
@@ -75,6 +76,7 @@ public class Book
             Book.WriteLine("\nWelcome to your programming notes. " +
                 "This program will help you keep track of your notes " +
                 "for your programming projects.\n");
+                Thread.Sleep(800);
 
             //Print chapter titles
             PrintChapters();
@@ -97,4 +99,10 @@ public class Book
             chapterToRead.Read();
         }
     }
+
+    internal static void start()
+    {
+        throw new NotImplementedException();
+    }
+
 }
