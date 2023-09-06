@@ -9,14 +9,17 @@ Chapter chapter2 = new Chapter("Chapter2");
 chapters.Add(chapter1);
 chapters.Add(chapter2);
 
-Page.read();
 
 
 
-Page variabler1 = new Page("variabler");
+Page variabler1 = new Page(MyNotes.VariablesPageOne);
 
-List<Page> Chapterpages = new List<Page>(){
+List<Page> chapter1pages = new List<Page>(){
     variabler1
 };
 
-Book.start();
+chapter1.Pages = chapter1pages;
+
+book.Chapters = chapters;
+
+book.Start();
