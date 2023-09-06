@@ -1,34 +1,22 @@
 ﻿Book book = new Book("Programmerings bog");
 
 
+List<Chapter> chapters = new List<Chapter>();
+
+Chapter chapter1 = new Chapter("Chapter1");
+Chapter chapter2 = new Chapter("Chapter2");
+
+chapters.Add(chapter1);
+chapters.Add(chapter2);
+
+Page.read();
+
+
+
 Page variabler1 = new Page("variabler");
 
 List<Page> Chapterpages = new List<Page>(){
     variabler1
 };
 
-List<Chapter> chapters = new List<Chapter>();
-
-Chapter variabler = new Chapter("Variabler", Chapterpages);
-
-chapters.Add(variabler);
-
-
-
-
-
-
-
-
-
-
-
-
-Page side = new Page("En klasse er balalalalala");
-
-List<Page> kapitelpages = new List<Page>();
-
-Page side2 = new Page("adadadadadada");
-
-Chapter kapitel = new Chapter("haps", kapitelpages);
-kapitelpages.
+Book.start();
