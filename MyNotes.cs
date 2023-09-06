@@ -20,4 +20,19 @@ A 'bool' is a true or false value, like true and false. ";
 public static string Stringspageone ="bla bla bla bla bla";
 public static string Stringspagetwo ="bla bla bla bla bla";
 
+public static string Looparrays1 ="bla bla bla bla bla";
+
+public static string Looparrays2 ="bla bla bla bla bla";
+
+public static string Methods1 ="bla bla bla bla bla";
+
+public static string Methods2 ="bla bla bla bla bla";
+
+public static string OOP1 ="bla bla bla bla bla";
+
+public static string OOP2 ="bla bla bla bla bla";
+
+public static string Fields1 ="bla bla bla bla bla";
+
+public static string Fields2 ="bla bla bla bla bla";
 }
